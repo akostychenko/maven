@@ -14,7 +14,9 @@
     </properties>
 
     <dependencies>
+<<<<<<< HEAD
 
+=======
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
@@ -36,7 +38,7 @@
             <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
-
+>>>>>>> 9c88cbf (first init commit)
     </dependencies>
 
     <build>
@@ -50,7 +52,8 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-
+<<<<<<< HEAD
+=======
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-install-plugin</artifactId>
@@ -71,22 +74,8 @@
                         </execution>
                     </executions>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>2.4</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader</mainClass>
-                        </manifest>
 
-                    </archive>
-                </configuration>
-            </plugin>
-
+>>>>>>> 9c88cbf (first init commit)
 
             <!-- Run java-fx app over Maven -->
             <plugin>
